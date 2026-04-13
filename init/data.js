@@ -203,13 +203,6 @@ const sampleListings = [
     geometry: { type: "Point", coordinates: [-83.7534, 9.7489] },
   },
   {
-    title: "Igloo Stay in Finland",
-    description: "Sleep under the northern lights in a cozy glass igloo in the Finnish Arctic wilderness.",
-    image: { filename: "listingimage", url: "https://images.unsplash.com/photo-1517823382935-51bfcb0ec6d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" },
-    price: 3200, location: "Rovaniemi", country: "Finland", category: "arctic",
-    geometry: { type: "Point", coordinates: [25.7294, 66.5039] },
-  },
-  {
     title: "Geodesic Dome in the Desert",
     description: "Spend a night stargazing from your own private geodesic dome in the heart of the Sahara.",
     image: { filename: "listingimage", url: "https://images.unsplash.com/photo-1615571022219-eb45cf7faa9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" },
