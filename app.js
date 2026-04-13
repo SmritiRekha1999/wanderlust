@@ -38,6 +38,10 @@ app.use(methodOverride("_method"));
 app.engine('ejs', ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
+app.get("/", (req, res) => {
+    res.redirect("/listings");
+});
+
 const sessionOptions = {
     secret : "mysupersecretcode",
     resave : false,
@@ -82,6 +86,7 @@ app.use((err, req, res, next) => {
   res.status(status).render("error.ejs", {message});
 });
 
-app.listen(8080, ()=>{
-    console.log("server is listening to port 8080");
+const port = process.env.PORT || 8080;
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
