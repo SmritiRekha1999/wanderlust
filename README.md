@@ -6,9 +6,9 @@ Wanderlust is a full-stack travel listing web application inspired by Airbnb, wh
 
 ---
 
-## ✨ Live Preview
+## 🚀 Live Demo
 
-🔗 https://
+🔗 [Visit Wanderlust](https://wanderlust-fk9k.onrender.com)
 
 ---
 
